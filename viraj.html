@@ -1,0 +1,225 @@
+
+<!DOCTYPE html><!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Thu Aug 03 2023 17:53:07 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="viraj-5fc9c3.webflow.io" data-wf-page="64ca9d84628dcb533fe17891" data-wf-site="64ca9d84628dcb533fe177ba" lang="en"><head><meta charset="utf-8"/><title>Viraj Patel</title><meta content="Viraj Patel" property="og:title"/><meta content="Viraj Patel" property="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/css/viraj-5fc9c3.webflow.bab101eb7.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa9adc43c9fcf5b743d44_image%2016.png" rel="shortcut icon" type="image/x-icon"/><link href="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa9b39dfdcf685a225eff_Frame%2080.png" rel="apple-touch-icon"/></head><body><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+</style></div><main class="main-wrapper"><div class="about-hero_navbar"><div class="padding-horizontal padding-medium"><div id="w-node-_9990f78a-f294-0c8f-0b66-9928e91f9a1e-e91f9a1e" data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><div class="padding-horizontal"><div class="navbar_overlay"></div><div id="w-node-_9990f78a-f294-0c8f-0b66-9928e91f9a1f-e91f9a1e" class="navbar_component"><a href="/" class="brand w-nav-brand"><img src="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa76d888c778fe0fbc03a_Group%209.svg" loading="lazy" width="130" height="Auto" alt=""/></a><nav role="navigation" class="navbar_menu w-nav-menu"><a href="#" class="navlink w-inline-block"><div>Hire me</div></a></nav><div class="w-nav-button"><div class="w-icon-nav-menu"></div></div><div class="navbar_right"><a href="/contact" class="button hide-mobile-portrait w-inline-block"><div id="nowThis" thatTextSplit="hoverTarget" base="20%" class="clip"><div class="hover-text"><div class="text-size-xsmall text-style-allcaps">Schedule a call</div></div><div class="hover-text bottom-hover-text"><div class="text-size-xsmall text-style-allcaps">Schedule a call</div></div></div></a><div data-hover="false" data-delay="1000" data-w-id="e4acc428-f7d4-40fd-2558-71aa586d4308" class="navbar_dropdown w-dropdown"><div class="navbar_toggle w-dropdown-toggle"><div class="navbar_line navbar-line-top"></div><div class="navbar_line navbar-line-bottom"></div></div><nav class="navbar_dropdown-list w-dropdown-list"><div class="navbar_drop-content radius-regular"><div class="navbar_link-wrapper"><div id="w-node-dcf96600-dc67-46aa-b261-5e18bb914b2c-e91f9a1e" class="into-view-1"><a href="/about" class="navbar_link w-inline-block"><div class="heading-style-h5 text-style-allcaps">About</div><div><div class="clip"><div class="hover-arrow left"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div><div class="hover-arrow"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div></div></div></a></div><div id="w-node-_801ff30e-95ab-85cf-050c-dad43c1ea620-e91f9a1e" class="into-view-2"><a href="/works" class="navbar_link w-inline-block"><div class="heading-style-h5 text-style-allcaps">Work</div><div><div class="clip"><div class="hover-arrow left"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div><div class="hover-arrow"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div></div></div></a></div><div id="w-node-de31a87d-6672-b57b-39d9-182a3bf92ebb-e91f9a1e" class="into-view-3"><a href="/contact" class="navbar_link w-inline-block"><div class="heading-style-h5 text-style-allcaps">Contact</div><div><div class="clip"><div class="hover-arrow left"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div><div class="hover-arrow"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div></div></div></a></div><div id="w-node-_453bff1a-05a7-bbb8-3bd2-c2cdafdb1f3a-e91f9a1e" class="into-view-4"><a href="#" class="navbar_link w-inline-block"><div class="heading-style-h5 text-style-allcaps">Clone me</div><div><div class="clip"><div class="hover-arrow left"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div><div class="hover-arrow"><div class="icon-1x1-tiny w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+</svg>
+</div></div></div></div></a></div></div></div></nav></div></div></div></div></div></div></div><section data-w-id="0c702969-eebf-4134-dd90-09bdce0dee4d" class="home-hero"><div class="padding-horizontal padding-medium"><div class="grid-large"><div id="w-node-_0c702969-eebf-4134-dd90-09bdce0dee50-3fe17891" class="home-hero-block"><div data-w-id="0c702969-eebf-4134-dd90-09bdce0dee51" class="hero-rotate-base"><div data-w-id="0c702969-eebf-4134-dd90-09bdce0dee52" style="opacity:0;-webkit-transform:translate3d(0, 85%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 85%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 85%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 85%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hero-rotate-image"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.65, 0.65, 1) rotateX(0) rotateY(180deg) rotateZ(25deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.65, 0.65, 1) rotateX(0) rotateY(180deg) rotateZ(25deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.65, 0.65, 1) rotateX(0) rotateY(180deg) rotateZ(25deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.65, 0.65, 1) rotateX(0) rotateY(180deg) rotateZ(25deg) skew(0, 0);transform-style:preserve-3d" class="hero-rotate-item radius-regular"><div class="hero-rotate-height"></div><img src="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa2d14861c30eca0439b1_IMG_20230625_223433_095.jpg" loading="lazy" sizes="(max-width: 479px) 7.1875px, (max-width: 991px) 1vw, 8vw" srcset="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa2d14861c30eca0439b1_IMG_20230625_223433_095-p-500.jpg 500w, https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa2d14861c30eca0439b1_IMG_20230625_223433_095-p-800.jpg 800w, https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64caa2d14861c30eca0439b1_IMG_20230625_223433_095.jpg 960w" alt="" class="image-fill"/></div></div></div><div id="w-node-_0c702969-eebf-4134-dd90-09bdce0dee56-3fe17891" class="home-hero-intro"><div class="clip"><div data-w-id="0c702969-eebf-4134-dd90-09bdce0dee58" class="loader-step-one"><h1 split-text="" class="heading-style-huge text-color-white text-align-center">Viraj<br/></h1></div></div><div class="clip"><div data-w-id="0c702969-eebf-4134-dd90-09bdce0dee5d" class="loader-step-two"><h1 split-text="" class="heading-style-huge text-color-white text-align-center"><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-1">Patel</span></h1></div></div></div></div></div></div></section><section class="home-about"><div class="padding-horizontal padding-small"><div class="grid-large"><div id="intro" class="home-about-block w-node-_0c702969-eebf-4134-dd90-09bdce0dee64-3fe17891"><div class="curve-block-center"><a id="right" href="#" class="curve-link w-inline-block"><div class="curve-arrow"><div class="clip"><div class="hover-arrow top"><div class="icon w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.0002 16.172L18.3642 10.808L19.7782 12.222L12.0002 20L4.22217 12.222L5.63617 10.808L11.0002 16.172V4H13.0002V16.172Z" fill="currentColor"/>
+</svg>
+</div></div><div class="hover-arrow"><div class="icon w-embed"><svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.0002 16.172L18.3642 10.808L19.7782 12.222L12.0002 20L4.22217 12.222L5.63617 10.808L11.0002 16.172V4H13.0002V16.172Z" fill="currentColor"/>
+</svg>
+</div></div></div></div><img src="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/64ca9d84628dcb533fe17821_Pre-order_curve.svg" loading="lazy" alt=""/></a></div><div class="padding-horizontal padding-medium"><div class="home-about-top"><div class="padding-vertical padding-xlarge"><div class="home-about-intro"><div split-text=" " class="text-size-xlarge text-align-center">Empowering Enterprises and Nurturing Startups with Years of Industry Experience.</div><a href="https://drive.google.com/file/d/1f27q-ESQZWIrl4F2G690aJDMrMQedjn1/view" target="_blank" class="button is-light w-inline-block"><div id="nowThis" thatTextSplit="hoverTarget" base="20%" class="clip"><div class="hover-text"><div class="text-size-xsmall">Explore my story</div></div><div class="hover-text bottom-hover-text"><div class="text-size-xsmall">Explore my story</div></div></div></a></div></div><div data-w-id="0c702969-eebf-4134-dd90-09bdce0dee7c" class="row-title-block"><div class="letter-animation"><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-1"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-2"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-3"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-4"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-5"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-6"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-7"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-8"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-9"></div><div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-10"></div></div><div class="row-title"><div class="row-title-clip"><div class="row-title-text text-align-center"><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-1">S</span><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-2">i</span><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-3">n</span><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-4">c</span><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-5">e</span> <span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-6">2</span><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-7">0</span><span style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letter-8">18</span></div></div><div class="row-title-bottom"></div></div></div></div></div></div></div></div></section><section class="section-footer1"><div class="padding-horizontal padding-small"><div class="grid-large"><div id="w-node-f17c5aa6-ff54-9c14-64f2-750ce83c15a6-e83c15a3" class="footer-block"><div class="padding-vertical padding-huge"><div class="footer-intro"><div class="text-size-large text-align-center text-color-white">Whether you need design or tweak some code, I have the skills and creativity needed to take your project to the next level.</div><a href="https://dribbble.com/vee2002_3" class="button w-inline-block"><div id="nowThis" thatTextSplit="hoverTarget" base="20%" class="clip"><div class="hover-text"><div class="text-size-xsmall">Visit Dribble Profile</div></div><div class="hover-text bottom-hover-text"><div class="text-size-xsmall">Schedule a call</div></div></div></a></div></div><div class="padding-horizontal padding-medium"><div class="footer-bottom"><div id="w-node-f17c5aa6-ff54-9c14-64f2-750ce83c15b0-e83c15a3" class="text-size-tiny text-style-allcaps text-color-white">© 2023 Virajptl.com<a href="" target="_blank" class="text-style-link light"></a></div><div id="w-node-f17c5aa6-ff54-9c14-64f2-750ce83c15b2-e83c15a3" class="footer-menu"><a href="/" class="footer-link w-inline-block"><div class="text-size-tiny text-style-allcaps">Home</div></a><a href="/about" class="footer-link w-inline-block"><div class="text-size-tiny text-style-allcaps">About</div></a><a href="/works" class="footer-link w-inline-block"><div class="text-size-tiny text-style-allcaps">Projects</div></a><a href="/contact" class="footer-link w-inline-block"><div class="text-size-tiny text-style-allcaps">Contact</div></a></div><div id="w-node-f17c5aa6-ff54-9c14-64f2-750ce83c15bf-e83c15a3" class="text-size-tiny text-style-allcaps text-color-white">Made with Love 🧡</div><div id="w-node-_8af41f28-2eb5-2ef6-282f-71d6f7c51360-e83c15a3" class="text-size-tiny text-style-allcaps text-color-white contact"><a href="tel:+918849031687" class="link">+91 8849031687</a><a href="https://webflow.com/@tycreated" target="_blank" class="text-style-link light"></a></div><div id="w-node-_8447a6fd-d23a-e9c0-2f55-b42a8c922e90-e83c15a3" class="text-size-tiny text-style-allcaps text-color-white">Unlocking Possibilities Together</div><div id="w-node-a96648d6-64ab-b226-ee41-897015ebe3ce-e83c15a3" class="text-size-tiny text-style-allcaps text-color-white"><a href="mailto:contact@virajptl.com?subject=I%20saw%20your%20website" class="link">contact@virajptl.com</a></div></div></div></div></div></div></section></main></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64ca9d84628dcb533fe177ba" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/64ca9d84628dcb533fe177ba/js/webflow.57d12c936.js" type="text/javascript"></script></body></html>
